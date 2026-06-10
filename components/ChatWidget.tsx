@@ -87,7 +87,7 @@ export default function ChatWidget() {
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open chat"}
-        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center bg-nv text-black shadow-lg shadow-nv/20 transition-colors hover:bg-nv-bright"
+        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 cursor-pointer items-center justify-center bg-nv text-black shadow-lg shadow-nv/20 transition-colors hover:bg-nv-bright"
       >
         {open ? (
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
@@ -107,9 +107,6 @@ export default function ChatWidget() {
             <span className="h-2 w-2 bg-nv" aria-hidden />
             <span className="text-sm font-bold text-white">
               GeForce Assistant
-            </span>
-            <span className="ml-auto text-xs text-zinc-500">
-              Powered by DeepSeek
             </span>
           </div>
 
@@ -149,7 +146,7 @@ export default function ChatWidget() {
             <button
               type="submit"
               disabled={loading || !input.trim()}
-              className="h-10 bg-nv px-4 text-sm font-bold text-black transition-colors hover:bg-nv-bright disabled:cursor-not-allowed disabled:opacity-40"
+              className="h-10 cursor-pointer bg-nv px-4 text-sm font-bold text-black transition-colors hover:bg-nv-bright disabled:cursor-not-allowed disabled:opacity-40"
             >
               Send
             </button>
