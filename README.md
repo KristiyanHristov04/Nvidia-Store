@@ -1,3 +1,8 @@
+<img width="1902" height="939" alt="gpu1" src="https://github.com/user-attachments/assets/6866ebfe-9fd0-434d-9da2-ad9dfa85ea0f" />
+<img width="1905" height="941" alt="gpu2" src="https://github.com/user-attachments/assets/c4359361-1845-47a4-b4e0-ccc5d57305fd" />
+<img width="1903" height="941" alt="gpu3" src="https://github.com/user-attachments/assets/998294c4-8fca-420b-a6f8-6858042ac643" />
+<br>
+<br>
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
